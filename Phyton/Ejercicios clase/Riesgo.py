@@ -4,7 +4,7 @@ Solicitud = float(input("Introduce la cantidad de tu solicitud:"))
 Sueldo = float(input("Introduce tu sueldo:"))
 
 
-if Historialcrediticio < 0 or Empleo < 2 or Solicitud <= 1% Sueldo :
+if Historialcrediticio < 0 or Empleo < 2 or Solicitud > (0.01 * Sueldo) :
     print ("Es de riesgo")
 else : 
     print ("No es de riesgo")
